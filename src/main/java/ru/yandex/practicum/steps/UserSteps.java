@@ -2,6 +2,7 @@ package ru.yandex.practicum.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import ru.yandex.practicum.config.Endpoints;
 import ru.yandex.practicum.models.User;
 
 import static io.restassured.RestAssured.given;
@@ -14,7 +15,7 @@ public class UserSteps {
         return given()
                 .body(user)
                 .when()
-                .post("/api/auth/register")
+                .post(Endpoints.USER_REGISTER)
                 .then();
     }
 
@@ -23,7 +24,7 @@ public class UserSteps {
         return given()
                 .body(user)
                 .when()
-                .post("/api/auth/login")
+                .post(Endpoints.USER_LOGIN)
                 .then();
     }
 
@@ -33,7 +34,7 @@ public class UserSteps {
             given()
                     .header("Authorization", token)
                     .when()
-                    .delete("/api/auth/user")
+                    .delete(Endpoints.USER_DATA)
                     .then()
                     .statusCode(SC_ACCEPTED);
 

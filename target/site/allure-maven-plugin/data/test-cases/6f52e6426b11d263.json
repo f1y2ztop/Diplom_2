@@ -1,0 +1,123 @@
+{
+  "uid" : "6f52e6426b11d263",
+  "name" : "Логин пользователя с неверным полем email",
+  "fullName" : "TestLoginUser.loginWithWrongEmail",
+  "historyId" : "e554073d519492450a0b006b8c4e8371",
+  "time" : {
+    "start" : 1768239588376,
+    "stop" : 1768239589210,
+    "duration" : 834
+  },
+  "description" : "Проверка ошибки авторизации при использовании некорректного адреса электронной почты",
+  "descriptionHtml" : "<p>Проверка ошибки авторизации при использовании некорректного адреса электронной почты</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка ошибки авторизации при использовании некорректного адреса электронной почты",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239588383,
+        "stop" : 1768239588512,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@7c7e49c8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Логин пользователя",
+      "time" : {
+        "start" : 1768239588519,
+        "stop" : 1768239588562,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@7c7e49c8"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1768239588574,
+        "stop" : 1768239589210,
+        "duration" : 636
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWU4OTg0MjcwMDAxYmUzMzVlMiIsImlhdCI6MTc2ODIzOTU5MiwiZXhwIjoxNzY4MjQwNzkyfQ.bmFHQy8QofZz6PBAxFmPNL7k8CSemJ3bzyclC1Bza64"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestLoginUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithWrongEmail"
+  }, {
+    "name" : "suite",
+    "value" : "TestLoginUser"
+  }, {
+    "name" : "host",
+    "value" : "KAKATB"
+  }, {
+    "name" : "thread",
+    "value" : "18984@KAKATB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f52e6426b11d263.json",
+  "parameterValues" : [ ]
+}

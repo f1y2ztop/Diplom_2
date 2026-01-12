@@ -1,4 +1,5 @@
 import com.github.javafaker.Faker;
+import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
@@ -19,7 +20,7 @@ public class TestCreateUser extends BaseTest {
     private String accessToken;
 
     @Before
-    public void SetUp() {
+    public void setUp() {
         user = new User();
         user.withName(faker.name().username())
                 .withEmail(faker.internet().emailAddress())
@@ -28,6 +29,7 @@ public class TestCreateUser extends BaseTest {
 
     @Test
     @DisplayName("Регистрация пользователя")
+    @Description("Проверка успешного создания нового уникального пользователя")
     public void addNewUser() {
         ValidatableResponse response = userSteps.createUser(user);
                 response.statusCode(SC_OK)
@@ -38,6 +40,7 @@ public class TestCreateUser extends BaseTest {
 
     @Test
     @DisplayName("Регистрация пользователя, который уже зарегистрирован")
+    @Description("Проверка невозможности повторной регистрации пользователя с теми же данными")
     public void addTheSameUser() {
         ValidatableResponse response = userSteps.createUser(user);
             response.statusCode(SC_OK);
@@ -50,6 +53,7 @@ public class TestCreateUser extends BaseTest {
 
     @Test
     @DisplayName("Регистрация с пустым полем имя")
+    @Description("Проверка обязательности заполнения поля Name при регистрации")
     public void addUserWithoutName() {
         user.withName("");
         ValidatableResponse response = userSteps.createUser(user);
@@ -60,6 +64,7 @@ public class TestCreateUser extends BaseTest {
 
     @Test
     @DisplayName("Регистрация с пустым полем Email")
+    @Description("Проверка обязательности заполнения поля Email при регистрации")
     public void addUserWithoutEmail() {
         user.withEmail("");
         ValidatableResponse response = userSteps.createUser(user);
@@ -70,6 +75,7 @@ public class TestCreateUser extends BaseTest {
 
     @Test
     @DisplayName("Регистрация с пустым полем Password")
+    @Description("Проверка обязательности заполнения поля Password при регистрации")
     public void addUserWithoutPassword() {
         user.withPassword("");
         ValidatableResponse response = userSteps.createUser(user);

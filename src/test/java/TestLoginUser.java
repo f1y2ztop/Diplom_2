@@ -1,4 +1,5 @@
 import com.github.javafaker.Faker;
+import io.qameta.allure.Description;
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.After;
@@ -28,6 +29,7 @@ public class TestLoginUser extends BaseTest {
 
     @Test
     @DisplayName("Логин пользователя")
+    @Description("Проверка успешного входа существующим пользователем с валидными данными")
     public void loginUser() {
         ValidatableResponse response = userSteps.loginUser(user);
                 response.statusCode(SC_OK)
@@ -37,6 +39,7 @@ public class TestLoginUser extends BaseTest {
 
     @Test
     @DisplayName("Логин пользователя с неверным полем email")
+    @Description("Проверка ошибки авторизации при использовании некорректного адреса электронной почты")
     public void loginWithWrongEmail() {
         user.withEmail("Fakemail@yandex.ru");
         ValidatableResponse response = userSteps.loginUser(user);
@@ -47,6 +50,7 @@ public class TestLoginUser extends BaseTest {
 
     @Test
     @DisplayName("Логин пользователя с неверным полем password")
+    @Description("Проверка ошибки авторизации при использовании неверного пароля")
     public void loginWithWrongPassword() {
         user.withPassword("ThisPasswordIsFake");
         ValidatableResponse response = userSteps.loginUser(user);

@@ -1,0 +1,123 @@
+{
+  "uid" : "18602d99e8e4182c",
+  "name" : "Регистрация пользователя, который уже зарегистрирован",
+  "fullName" : "TestCreateUser.addTheSameUser",
+  "historyId" : "6f6ebd10ab24d510324da539eec2c576",
+  "time" : {
+    "start" : 1768239584652,
+    "stop" : 1768239585508,
+    "duration" : 856
+  },
+  "description" : "Проверка невозможности повторной регистрации пользователя с теми же данными",
+  "descriptionHtml" : "<p>Проверка невозможности повторной регистрации пользователя с теми же данными</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка невозможности повторной регистрации пользователя с теми же данными",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239584656,
+        "stop" : 1768239584793,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@278e993c"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239584802,
+        "stop" : 1768239584847,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@278e993c"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1768239584857,
+        "stop" : 1768239585508,
+        "duration" : 651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWU0OTg0MjcwMDAxYmUzMzVkOSIsImlhdCI6MTc2ODIzOTU4OCwiZXhwIjoxNzY4MjQwNzg4fQ.gB6ItVxbnCuNit3RL1yJcGpB4oiiAqpC85GV4T9pFoc"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "addTheSameUser"
+  }, {
+    "name" : "suite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "KAKATB"
+  }, {
+    "name" : "thread",
+    "value" : "18984@KAKATB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18602d99e8e4182c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,121 @@
+[ {
+  "uid" : "daaab4772165aab5",
+  "name" : "Логин пользователя",
+  "time" : {
+    "start" : 1768239587418,
+    "stop" : 1768239588375,
+    "duration" : 957
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f52e6426b11d263",
+  "name" : "Логин пользователя с неверным полем email",
+  "time" : {
+    "start" : 1768239588376,
+    "stop" : 1768239589210,
+    "duration" : 834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afdd8932f4c2037f",
+  "name" : "Регистрация с пустым полем Email",
+  "time" : {
+    "start" : 1768239586433,
+    "stop" : 1768239586500,
+    "duration" : 67
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8f2049a91dee1d",
+  "name" : "Регистрация с пустым полем Password",
+  "time" : {
+    "start" : 1768239586370,
+    "stop" : 1768239586433,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18602d99e8e4182c",
+  "name" : "Регистрация пользователя, который уже зарегистрирован",
+  "time" : {
+    "start" : 1768239584652,
+    "stop" : 1768239585508,
+    "duration" : 856
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fba04e0cadbbe29c",
+  "name" : "Создать заказ с авторизацией",
+  "time" : {
+    "start" : 1768239574101,
+    "stop" : 1768239581605,
+    "duration" : 7504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9826341ac8a8b6",
+  "name" : "Логин пользователя с неверным полем password",
+  "time" : {
+    "start" : 1768239586504,
+    "stop" : 1768239587418,
+    "duration" : 914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d13ea1f4ab7a790c",
+  "name" : "Создать заказ без авторизации",
+  "time" : {
+    "start" : 1768239582793,
+    "stop" : 1768239583721,
+    "duration" : 928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae7344cd22c40dfa",
+  "name" : "Регистрация пользователя",
+  "time" : {
+    "start" : 1768239585572,
+    "stop" : 1768239586369,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e177b7a3e8bcc1f",
+  "name" : "Регистрация с пустым полем имя",
+  "time" : {
+    "start" : 1768239585509,
+    "stop" : 1768239585572,
+    "duration" : 63
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6841fc70184fca96",
+  "name" : "Создать заказ с неверным хешем",
+  "time" : {
+    "start" : 1768239581663,
+    "stop" : 1768239582783,
+    "duration" : 1120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1fda64e81ced905",
+  "name" : "Создать заказ без ингредиентов",
+  "time" : {
+    "start" : 1768239583722,
+    "stop" : 1768239584647,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

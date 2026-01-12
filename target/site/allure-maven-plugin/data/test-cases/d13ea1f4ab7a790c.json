@@ -1,0 +1,141 @@
+{
+  "uid" : "d13ea1f4ab7a790c",
+  "name" : "Создать заказ без авторизации",
+  "fullName" : "TestCreateOrder.createOrderWithoutAuth",
+  "historyId" : "34765ad57ad0ed639210327adab3a251",
+  "time" : {
+    "start" : 1768239582793,
+    "stop" : 1768239583721,
+    "duration" : 928
+  },
+  "description" : "Проверка возможности анонимного создания заказа",
+  "descriptionHtml" : "<p>Проверка возможности анонимного создания заказа</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка возможности анонимного создания заказа",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239582799,
+        "stop" : 1768239582942,
+        "duration" : 143
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@20ebc899"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных об ингредиентах",
+      "time" : {
+        "start" : 1768239582950,
+        "stop" : 1768239583002,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1768239583010,
+        "stop" : 1768239583070,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "ru.yandex.practicum.models.Order@5dea8bf2"
+      }, {
+        "name" : "token",
+        "value" : "null"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1768239583073,
+        "stop" : 1768239583721,
+        "duration" : 648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWUyOTg0MjcwMDAxYmUzMzVkNSIsImlhdCI6MTc2ODIzOTU4NiwiZXhwIjoxNzY4MjQwNzg2fQ.t0TvCkOc1MlAnxOza8d_meXQG6XHe6Wv200uED1LgGs"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutAuth"
+  }, {
+    "name" : "suite",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "host",
+    "value" : "KAKATB"
+  }, {
+    "name" : "thread",
+    "value" : "18984@KAKATB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d13ea1f4ab7a790c.json",
+  "parameterValues" : [ ]
+}

@@ -2,6 +2,7 @@ package ru.yandex.practicum.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.ValidatableResponse;
+import ru.yandex.practicum.config.Endpoints;
 import ru.yandex.practicum.models.Order;
 
 import static io.restassured.RestAssured.given;
@@ -11,7 +12,7 @@ public class OrderSteps {
     @Step("Получение данных об ингредиентах")
     public ValidatableResponse getIngredients() {
         return given()
-                .get("/api/ingredients")
+                .get(Endpoints.INGREDIENTS)
                 .then();
     }
 
@@ -23,7 +24,7 @@ public class OrderSteps {
         }
         return request
                 .when()
-                .post("/api/orders")
+                .post(Endpoints.ORDERS)
                 .then();
     }
 }

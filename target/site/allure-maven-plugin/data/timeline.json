@@ -1,0 +1,169 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "KAKATB",
+    "children" : [ {
+      "name" : "18984@KAKATB.main(1)",
+      "children" : [ {
+        "name" : "Регистрация пользователя",
+        "uid" : "ae7344cd22c40dfa",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239585572,
+          "stop" : 1768239586369,
+          "duration" : 797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация пользователя, который уже зарегистрирован",
+        "uid" : "18602d99e8e4182c",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239584652,
+          "stop" : 1768239585508,
+          "duration" : 856
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создать заказ с авторизацией",
+        "uid" : "fba04e0cadbbe29c",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239574101,
+          "stop" : 1768239581605,
+          "duration" : 7504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Логин пользователя с неверным полем password",
+        "uid" : "3d9826341ac8a8b6",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239586504,
+          "stop" : 1768239587418,
+          "duration" : 914
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация с пустым полем имя",
+        "uid" : "4e177b7a3e8bcc1f",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239585509,
+          "stop" : 1768239585572,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация с пустым полем Email",
+        "uid" : "afdd8932f4c2037f",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239586433,
+          "stop" : 1768239586500,
+          "duration" : 67
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Логин пользователя",
+        "uid" : "daaab4772165aab5",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239587418,
+          "stop" : 1768239588375,
+          "duration" : 957
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Регистрация с пустым полем Password",
+        "uid" : "4c8f2049a91dee1d",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239586370,
+          "stop" : 1768239586433,
+          "duration" : 63
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создать заказ без авторизации",
+        "uid" : "d13ea1f4ab7a790c",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239582793,
+          "stop" : 1768239583721,
+          "duration" : 928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Логин пользователя с неверным полем email",
+        "uid" : "6f52e6426b11d263",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239588376,
+          "stop" : 1768239589210,
+          "duration" : 834
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создать заказ с неверным хешем",
+        "uid" : "6841fc70184fca96",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239581663,
+          "stop" : 1768239582783,
+          "duration" : 1120
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Создать заказ без ингредиентов",
+        "uid" : "f1fda64e81ced905",
+        "parentUid" : "92574ecd8fbd6164cfecbf1ab2101e55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1768239583722,
+          "stop" : 1768239584647,
+          "duration" : 925
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92574ecd8fbd6164cfecbf1ab2101e55"
+    } ],
+    "uid" : "6f6fccab160be5b58830d72c99551db9"
+  } ]
+}
