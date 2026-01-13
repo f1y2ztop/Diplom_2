@@ -19,7 +19,7 @@ public class TestLoginUser extends BaseTest {
     private String accessToken;
 
     @Before
-    public void SetUp() {
+    public void setUp() {
         user = new User();
         user.withName(faker.name().username())
                 .withEmail(faker.internet().emailAddress())
