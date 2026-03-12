@@ -1,0 +1,141 @@
+{
+  "uid" : "6841fc70184fca96",
+  "name" : "Создать заказ с неверным хешем",
+  "fullName" : "TestCreateOrder.createOrderWrongHash",
+  "historyId" : "38088e5ae7c60c6ea3d2c8a5561e9a9e",
+  "time" : {
+    "start" : 1768239581663,
+    "stop" : 1768239582783,
+    "duration" : 1120
+  },
+  "description" : "Проверка поведения системы при передаче несуществующих ID ингредиентов",
+  "descriptionHtml" : "<p>Проверка поведения системы при передаче несуществующих ID ингредиентов</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка поведения системы при передаче несуществующих ID ингредиентов",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239581684,
+        "stop" : 1768239581875,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@7ea7fed5"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Получение данных об ингредиентах",
+      "time" : {
+        "start" : 1768239581883,
+        "stop" : 1768239581939,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Создание заказа",
+      "time" : {
+        "start" : 1768239581950,
+        "stop" : 1768239582122,
+        "duration" : 172
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "order",
+        "value" : "ru.yandex.practicum.models.Order@650f4d76"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWUxOTg0MjcwMDAxYmUzMzVkMyIsImlhdCI6MTc2ODIzOTU4NSwiZXhwIjoxNzY4MjQwNzg1fQ.cW0AYTCmuPcfqEGyMMJselW6ztegfRF3kUAyDfM5HHU"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1768239582122,
+        "stop" : 1768239582783,
+        "duration" : 661
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWUxOTg0MjcwMDAxYmUzMzVkMyIsImlhdCI6MTc2ODIzOTU4NSwiZXhwIjoxNzY4MjQwNzg1fQ.cW0AYTCmuPcfqEGyMMJselW6ztegfRF3kUAyDfM5HHU"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWrongHash"
+  }, {
+    "name" : "suite",
+    "value" : "TestCreateOrder"
+  }, {
+    "name" : "host",
+    "value" : "KAKATB"
+  }, {
+    "name" : "thread",
+    "value" : "18984@KAKATB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6841fc70184fca96.json",
+  "parameterValues" : [ ]
+}

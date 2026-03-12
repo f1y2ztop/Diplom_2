@@ -1,0 +1,105 @@
+{
+  "uid" : "ae7344cd22c40dfa",
+  "name" : "Регистрация пользователя",
+  "fullName" : "TestCreateUser.addNewUser",
+  "historyId" : "c4f47456512af99ed196c0972f804478",
+  "time" : {
+    "start" : 1768239585572,
+    "stop" : 1768239586369,
+    "duration" : 797
+  },
+  "description" : "Проверка успешного создания нового уникального пользователя",
+  "descriptionHtml" : "<p>Проверка успешного создания нового уникального пользователя</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Проверка успешного создания нового уникального пользователя",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1768239585581,
+        "stop" : 1768239585713,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.yandex.practicum.models.User@768ed999"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Удаление пользователя",
+      "time" : {
+        "start" : 1768239585724,
+        "stop" : 1768239586369,
+        "duration" : 645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5NjUzMWU1OTg0MjcwMDAxYmUzMzVkYiIsImlhdCI6MTc2ODIzOTU4OSwiZXhwIjoxNzY4MjQwNzg5fQ.2o46XBP7k87yPoCFTemVzs9HiFzRdP9Cs7plahp1RDM"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "testMethod",
+    "value" : "addNewUser"
+  }, {
+    "name" : "suite",
+    "value" : "TestCreateUser"
+  }, {
+    "name" : "host",
+    "value" : "KAKATB"
+  }, {
+    "name" : "thread",
+    "value" : "18984@KAKATB.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae7344cd22c40dfa.json",
+  "parameterValues" : [ ]
+}
